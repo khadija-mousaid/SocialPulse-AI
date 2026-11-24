@@ -1,0 +1,10 @@
+﻿topics,negative_count,evidence
+food_quality,14,"['Good food, but delivery took too long.', 'Le poulet était un peu sec cette fois-ci.', 'Pourquoi les frais de livraison changent selon le quartier ?']"
+ordering_platform,13,"[""Le site ne marche pas quand j'essaie de valider ma commande."", ""J'ai reçu la mauvaise commande, ce n'est pas ce que j'avais choisi."", 'Commande passée à 12h15, reçue à 13h05. Un peu long pour le déjeuner.']"
+menu_diversity,7,"[""Le menu change chaque semaine ou bien c'est toujours les mêmes plats ?"", 'Le menu végétarien est intéressant mais il manque des protéines.', 'Le choix est limité pour les personnes qui ne mangent pas de viande.']"
+price_payment,6,"['Le prix est un peu élevé pour la quantité.', 'Les portions sont petites, surtout pour le prix.', 'Pourquoi les frais de livraison changent selon le quartier ?']"
+nutrition_allergens,4,"['Je suis allergique aux arachides, comment vérifier les allergènes ?', 'Le menu végétarien est intéressant mais il manque des protéines.', 'Il faudrait proposer plus de plats sans gluten.']"
+packaging,4,"['Le packaging est joli mais il y avait beaucoup de plastique.', ""Le repas était bon mais le contenant s'est ouvert dans le sac."", ""J'ai trouvé un morceau de plastique dans ma salade. Très déçue.""]"
+delivery,4,"['Good food, but delivery took too long.', 'Pourquoi les frais de livraison changent selon le quartier ?', ""J'ai reçu une notification de livraison alors que le livreur n'était pas encore arrivé.""]"
+portions,4,"['Le prix est un peu élevé pour la quantité.', 'Les portions sont petites, surtout pour le prix.', 'Les photos donnent envie, mais le plat reçu était moins généreux.']"
+customer_service,2,"[""J'ai essayé de vous contacter par téléphone sans succès."", ""Le service client m'a demandé de répéter mon problème trois fois.""]"
