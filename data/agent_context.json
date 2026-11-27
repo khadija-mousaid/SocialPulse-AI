@@ -1,0 +1,1334 @@
+{
+    "metadata": {
+        "project": "SocialPulse AI",
+        "dataset_type": "synthetic",
+        "total_comments": 149,
+        "available_comment_ids": [
+            "C001",
+            "C002",
+            "C003",
+            "C004",
+            "C005",
+            "C006",
+            "C007",
+            "C008",
+            "C009",
+            "C010",
+            "C011",
+            "C012",
+            "C013",
+            "C014",
+            "C015",
+            "C016",
+            "C017",
+            "C018",
+            "C019",
+            "C020",
+            "C021",
+            "C022",
+            "C023",
+            "C024",
+            "C025",
+            "C026",
+            "C027",
+            "C028",
+            "C029",
+            "C030",
+            "C031",
+            "C032",
+            "C033",
+            "C034",
+            "C035",
+            "C036",
+            "C037",
+            "C038",
+            "C039",
+            "C040",
+            "C041",
+            "C042",
+            "C043",
+            "C044",
+            "C045",
+            "C046",
+            "C047",
+            "C048",
+            "C049",
+            "C050",
+            "C051",
+            "C052",
+            "C053",
+            "C054",
+            "C055",
+            "C056",
+            "C057",
+            "C058",
+            "C059",
+            "C060",
+            "C061",
+            "C062",
+            "C063",
+            "C064",
+            "C065",
+            "C066",
+            "C067",
+            "C068",
+            "C069",
+            "C070",
+            "C071",
+            "C072",
+            "C073",
+            "C074",
+            "C075",
+            "C076",
+            "C077",
+            "C078",
+            "C079",
+            "C080",
+            "C081",
+            "C082",
+            "C083",
+            "C084",
+            "C085",
+            "C086",
+            "C087",
+            "C088",
+            "C089",
+            "C090",
+            "C091",
+            "C092",
+            "C093",
+            "C094",
+            "C095",
+            "C096",
+            "C097",
+            "C098",
+            "C099",
+            "C100",
+            "C101",
+            "C102",
+            "C103",
+            "C104",
+            "C105",
+            "C106",
+            "C107",
+            "C108",
+            "C109",
+            "C110",
+            "C111",
+            "C112",
+            "C113",
+            "C114",
+            "C115",
+            "C116",
+            "C117",
+            "C118",
+            "C119",
+            "C120",
+            "C121",
+            "C122",
+            "C123",
+            "C124",
+            "C125",
+            "C126",
+            "C127",
+            "C128",
+            "C129",
+            "C130",
+            "C131",
+            "C132",
+            "C133",
+            "C134",
+            "C135",
+            "C136",
+            "C137",
+            "C138",
+            "C139",
+            "C140",
+            "C141",
+            "C142",
+            "C143",
+            "C144",
+            "C145",
+            "C146",
+            "C147",
+            "C148",
+            "C149"
+        ]
+    },
+    "sentiment_overview": {
+        "negative": {
+            "count": 53,
+            "percentage": 35.57
+        },
+        "positive": {
+            "count": 50,
+            "percentage": 33.56
+        },
+        "neutral": {
+            "count": 46,
+            "percentage": 30.87
+        }
+    },
+    "topic_overview": {
+        "food_quality": 32,
+        "delivery": 25,
+        "ordering_platform": 22,
+        "menu_diversity": 18,
+        "price_payment": 14,
+        "portions": 11,
+        "nutrition_allergens": 9,
+        "customer_service": 6,
+        "packaging": 5
+    },
+    "issue_overview": {
+        "taste_problem": 5,
+        "small_portion": 4,
+        "missing_item": 3,
+        "late_delivery": 3,
+        "limited_menu_choices": 3,
+        "payment_problem": 3,
+        "website_problem": 2,
+        "damaged_packaging": 2,
+        "missing_allergen_information": 2,
+        "account_problem": 2,
+        "no_response": 2,
+        "high_price": 1,
+        "cold_food": 1,
+        "excessive_plastic": 1,
+        "menu_variety": 1,
+        "wrong_order": 1,
+        "dry_food": 1,
+        "unexpected_delivery_fee": 1,
+        "contamination": 1,
+        "insufficient_protein": 1,
+        "presentation_mismatch": 1,
+        "application_performance": 1,
+        "wrong_recipient": 1,
+        "general_dissatisfaction": 1,
+        "promo_code_problem": 1,
+        "missing_dietary_options": 1,
+        "spilled_food": 1,
+        "delivery_area_selection": 1,
+        "sustainable_packaging_preference": 1,
+        "tracking_problem": 1,
+        "promo_expiration": 1,
+        "feature_request": 1,
+        "delivery_address_problem": 1,
+        "delivery_coverage": 1
+    },
+    "customer_needs_overview": {
+        "dietary_preference": 6,
+        "menu_request": 4,
+        "subscription_request": 1,
+        "notification_request": 1,
+        "portion_preference": 1,
+        "language_request": 1,
+        "delivery_request": 1,
+        "packaging_preference": 1,
+        "feature_request": 1
+    },
+    "issue_evidence": {
+        "high_price": [
+            {
+                "comment_id": "C004",
+                "comment_text": "Le prix est un peu élevé pour la quantité."
+            }
+        ],
+        "small_portion": [
+            {
+                "comment_id": "C004",
+                "comment_text": "Le prix est un peu élevé pour la quantité."
+            },
+            {
+                "comment_id": "C008",
+                "comment_text": "Les portions sont petites, surtout pour le prix."
+            },
+            {
+                "comment_id": "C025",
+                "comment_text": "Les photos donnent envie, mais le plat reçu était moins généreux."
+            },
+            {
+                "comment_id": "C037",
+                "comment_text": "Not bad, but I expected a bigger portion."
+            }
+        ],
+        "cold_food": [
+            {
+                "comment_id": "C007",
+                "comment_text": "J'ai reçu mon repas froid 😕"
+            }
+        ],
+        "missing_item": [
+            {
+                "comment_id": "C014",
+                "comment_text": "J'ai commandé deux fois et les deux fois il manquait un article."
+            },
+            {
+                "comment_id": "C079",
+                "comment_text": "هاد المرة وصلني الطلب ناقص، عافاكم راجعو الطلبات قبل الإرسال."
+            },
+            {
+                "comment_id": "C099",
+                "comment_text": "Mon repas était bon mais la boisson commandée était absente."
+            }
+        ],
+        "late_delivery": [
+            {
+                "comment_id": "C017",
+                "comment_text": "Good food, but delivery took too long."
+            },
+            {
+                "comment_id": "C044",
+                "comment_text": "Commande passée à 12h15, reçue à 13h05. Un peu long pour le déjeuner."
+            },
+            {
+                "comment_id": "C072",
+                "comment_text": "Très déçue, la commande est arrivée après ma pause déjeuner."
+            }
+        ],
+        "excessive_plastic": [
+            {
+                "comment_id": "C018",
+                "comment_text": "Le packaging est joli mais il y avait beaucoup de plastique."
+            }
+        ],
+        "menu_variety": [
+            {
+                "comment_id": "C020",
+                "comment_text": "Le menu change chaque semaine ou bien c'est toujours les mêmes plats ?"
+            }
+        ],
+        "taste_problem": [
+            {
+                "comment_id": "C021",
+                "comment_text": "J'ai essayé votre salade, elle manque un peu d'assaisonnement."
+            },
+            {
+                "comment_id": "C051",
+                "comment_text": "Je commande souvent chez vous, mais aujourd'hui le riz était trop salé."
+            },
+            {
+                "comment_id": "C081",
+                "comment_text": "Le dessert était trop sucré à mon goût."
+            },
+            {
+                "comment_id": "C101",
+                "comment_text": "Le poulet et les légumes étaient frais, mais le quinoa était trop cuit."
+            },
+            {
+                "comment_id": "C147",
+                "comment_text": "Le plat manquait de goût, peut-être ajouter des épices."
+            }
+        ],
+        "website_problem": [
+            {
+                "comment_id": "C023",
+                "comment_text": "Le site ne marche pas quand j'essaie de valider ma commande."
+            },
+            {
+                "comment_id": "C093",
+                "comment_text": "Le lien dans votre bio renvoie vers une page introuvable."
+            }
+        ],
+        "wrong_order": [
+            {
+                "comment_id": "C028",
+                "comment_text": "J'ai reçu la mauvaise commande, ce n'est pas ce que j'avais choisi."
+            }
+        ],
+        "dry_food": [
+            {
+                "comment_id": "C032",
+                "comment_text": "Le poulet était un peu sec cette fois-ci."
+            }
+        ],
+        "unexpected_delivery_fee": [
+            {
+                "comment_id": "C039",
+                "comment_text": "Pourquoi les frais de livraison changent selon le quartier ?"
+            }
+        ],
+        "damaged_packaging": [
+            {
+                "comment_id": "C041",
+                "comment_text": "Le repas était bon mais le contenant s'est ouvert dans le sac."
+            },
+            {
+                "comment_id": "C110",
+                "comment_text": "Les emballages sont pratiques mais difficiles à ouvrir."
+            }
+        ],
+        "missing_allergen_information": [
+            {
+                "comment_id": "C046",
+                "comment_text": "Je suis allergique aux arachides, comment vérifier les allergènes ?"
+            },
+            {
+                "comment_id": "C105",
+                "comment_text": "Le menu est sympa, mais il manque les allergènes sur la page de commande."
+            }
+        ],
+        "contamination": [
+            {
+                "comment_id": "C048",
+                "comment_text": "J'ai trouvé un morceau de plastique dans ma salade. Très déçue."
+            }
+        ],
+        "insufficient_protein": [
+            {
+                "comment_id": "C049",
+                "comment_text": "Le menu végétarien est intéressant mais il manque des protéines."
+            }
+        ],
+        "account_problem": [
+            {
+                "comment_id": "C056",
+                "comment_text": "J'ai payé en ligne mais la commande n'apparaît pas dans mon compte."
+            },
+            {
+                "comment_id": "C107",
+                "comment_text": "Je n'arrive pas à créer un compte avec mon numéro marocain."
+            }
+        ],
+        "limited_menu_choices": [
+            {
+                "comment_id": "C060",
+                "comment_text": "Le choix est limité pour les personnes qui ne mangent pas de viande."
+            },
+            {
+                "comment_id": "C083",
+                "comment_text": "Bonne qualité, mais le choix des boissons est vraiment limité."
+            },
+            {
+                "comment_id": "C117",
+                "comment_text": "Pas assez de choix pour les personnes qui suivent un régime sans viande."
+            }
+        ],
+        "presentation_mismatch": [
+            {
+                "comment_id": "C063",
+                "comment_text": "Le goût est bon, mais la présentation ne ressemble pas à la photo."
+            }
+        ],
+        "application_performance": [
+            {
+                "comment_id": "C064",
+                "comment_text": "Je trouve l'application un peu lente sur mon téléphone."
+            }
+        ],
+        "wrong_recipient": [
+            {
+                "comment_id": "C068",
+                "comment_text": "J'ai reçu ma commande à la bonne adresse mais ce n'était pas la bonne personne qui l'a récupérée."
+            }
+        ],
+        "payment_problem": [
+            {
+                "comment_id": "C074",
+                "comment_text": "Je ne comprends pas pourquoi ma carte est refusée uniquement sur votre site."
+            },
+            {
+                "comment_id": "C114",
+                "comment_text": "Je n'ai pas reçu de confirmation après le paiement."
+            },
+            {
+                "comment_id": "C141",
+                "comment_text": "Les options de paiement sont trop limitées."
+            }
+        ],
+        "no_response": [
+            {
+                "comment_id": "C085",
+                "comment_text": "J'ai essayé de vous contacter par téléphone sans succès."
+            },
+            {
+                "comment_id": "C135",
+                "comment_text": "Le service client m'a demandé de répéter mon problème trois fois."
+            }
+        ],
+        "general_dissatisfaction": [
+            {
+                "comment_id": "C091",
+                "comment_text": "Le repas était correct, sans plus. Je ne pense pas recommander."
+            }
+        ],
+        "promo_code_problem": [
+            {
+                "comment_id": "C094",
+                "comment_text": "J'ai reçu un code promo mais il ne fonctionne pas."
+            }
+        ],
+        "missing_dietary_options": [
+            {
+                "comment_id": "C096",
+                "comment_text": "Il faudrait proposer plus de plats sans gluten."
+            }
+        ],
+        "spilled_food": [
+            {
+                "comment_id": "C121",
+                "comment_text": "Le goût est bon mais la sauce était renversée dans le sac."
+            }
+        ],
+        "delivery_area_selection": [
+            {
+                "comment_id": "C125",
+                "comment_text": "Je ne peux pas sélectionner mon quartier dans le formulaire."
+            }
+        ],
+        "sustainable_packaging_preference": [
+            {
+                "comment_id": "C131",
+                "comment_text": "Je préfère avoir moins de plastique même si l'emballage est moins joli."
+            }
+        ],
+        "tracking_problem": [
+            {
+                "comment_id": "C133",
+                "comment_text": "J'ai reçu une notification de livraison alors que le livreur n'était pas encore arrivé."
+            }
+        ],
+        "promo_expiration": [
+            {
+                "comment_id": "C138",
+                "comment_text": "Votre offre de lancement est intéressante, mais elle expire trop vite."
+            }
+        ],
+        "feature_request": [
+            {
+                "comment_id": "C139",
+                "comment_text": "Je voudrais pouvoir noter chaque plat séparément."
+            }
+        ],
+        "delivery_address_problem": [
+            {
+                "comment_id": "C140",
+                "comment_text": "Le repas était frais, mais la commande a été livrée à la mauvaise adresse."
+            }
+        ],
+        "delivery_coverage": [
+            {
+                "comment_id": "C143",
+                "comment_text": "Why is delivery unavailable in my area?"
+            }
+        ]
+    },
+    "customer_needs_evidence": {
+        "dietary_preference": [
+            {
+                "comment_id": "C010",
+                "comment_text": "Est-ce que vous avez des options végétariennes ?"
+            },
+            {
+                "comment_id": "C027",
+                "comment_text": "Please add more vegan meals."
+            },
+            {
+                "comment_id": "C049",
+                "comment_text": "Le menu végétarien est intéressant mais il manque des protéines."
+            },
+            {
+                "comment_id": "C069",
+                "comment_text": "Le menu indique 'sans lactose', mais pouvez-vous confirmer pour la sauce ?"
+            },
+            {
+                "comment_id": "C096",
+                "comment_text": "Il faudrait proposer plus de plats sans gluten."
+            },
+            {
+                "comment_id": "C142",
+                "comment_text": "J'ai aimé le bowl végétarien, ajoutez-le définitivement au menu !"
+            }
+        ],
+        "menu_request": [
+            {
+                "comment_id": "C011",
+                "comment_text": "Kanbghi had l'idée walakin khas tzido chi plats marocains."
+            },
+            {
+                "comment_id": "C070",
+                "comment_text": "Le wrap était délicieux, mais il faudrait plus de choix de sauces."
+            },
+            {
+                "comment_id": "C096",
+                "comment_text": "Il faudrait proposer plus de plats sans gluten."
+            },
+            {
+                "comment_id": "C142",
+                "comment_text": "J'ai aimé le bowl végétarien, ajoutez-le définitivement au menu !"
+            }
+        ],
+        "subscription_request": [
+            {
+                "comment_id": "C033",
+                "comment_text": "J'aimerais voir une formule abonnement pour la semaine."
+            }
+        ],
+        "notification_request": [
+            {
+                "comment_id": "C061",
+                "comment_text": "J'aurais aimé recevoir une notification quand le livreur est parti."
+            }
+        ],
+        "portion_preference": [
+            {
+                "comment_id": "C066",
+                "comment_text": "Vous devriez proposer une petite et une grande taille."
+            }
+        ],
+        "language_request": [
+            {
+                "comment_id": "C076",
+                "comment_text": "Please make the menu available in English too."
+            }
+        ],
+        "delivery_request": [
+            {
+                "comment_id": "C100",
+                "comment_text": "Great concept. Please expand delivery areas."
+            }
+        ],
+        "packaging_preference": [
+            {
+                "comment_id": "C131",
+                "comment_text": "Je préfère avoir moins de plastique même si l'emballage est moins joli."
+            }
+        ],
+        "feature_request": [
+            {
+                "comment_id": "C139",
+                "comment_text": "Je voudrais pouvoir noter chaque plat séparément."
+            }
+        ]
+    },
+    "topic_evidence": {
+        "food_quality": [
+            {
+                "comment_id": "C001",
+                "comment_text": "Franchement le bowl poulet quinoa était très bon, je recommande !",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C009",
+                "comment_text": "Très frais et bien présenté, bravo à toute l'équipe.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C017",
+                "comment_text": "Good food, but delivery took too long.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C019",
+                "comment_text": "Très bonne découverte, le bowl saumon est délicieux.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C029",
+                "comment_text": "Les ingrédients sont frais, ça se sent directement.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C032",
+                "comment_text": "Le poulet était un peu sec cette fois-ci.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C039",
+                "comment_text": "Pourquoi les frais de livraison changent selon le quartier ?",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C041",
+                "comment_text": "Le repas était bon mais le contenant s'est ouvert dans le sac.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C051",
+                "comment_text": "Je commande souvent chez vous, mais aujourd'hui le riz était trop salé.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C052",
+                "comment_text": "Le packaging garde bien la chaleur, bonne idée.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C057",
+                "comment_text": "Le bowl falafel est devenu mon préféré 😍",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C063",
+                "comment_text": "Le goût est bon, mais la présentation ne ressemble pas à la photo.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C067",
+                "comment_text": "Honestly, the food is fresh and tasty. I'll order again.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C068",
+                "comment_text": "J'ai reçu ma commande à la bonne adresse mais ce n'était pas la bonne personne qui l'a récupérée.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C070",
+                "comment_text": "Le wrap était délicieux, mais il faudrait plus de choix de sauces.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C081",
+                "comment_text": "Le dessert était trop sucré à mon goût.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C083",
+                "comment_text": "Bonne qualité, mais le choix des boissons est vraiment limité.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C084",
+                "comment_text": "Je recommande le bowl lentilles, très bon et rassasiant.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C092",
+                "comment_text": "Très bonne idée pour les personnes qui veulent manger équilibré au travail.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C099",
+                "comment_text": "Mon repas était bon mais la boisson commandée était absente.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C101",
+                "comment_text": "Le poulet et les légumes étaient frais, mais le quinoa était trop cuit.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C106",
+                "comment_text": "Le plat était délicieux hier, aujourd'hui la qualité était différente.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C108",
+                "comment_text": "Merci, vous avez remplacé l'article manquant sans frais.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C113",
+                "comment_text": "Le prix étudiant serait une très bonne idée.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C121",
+                "comment_text": "Le goût est bon mais la sauce était renversée dans le sac.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C124",
+                "comment_text": "Le bowl est bon, mais il faudrait une option avec moins de sel.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C127",
+                "comment_text": "Les frais supplémentaires ne sont affichés qu'à la dernière étape, ce n'est pas très clair.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C136",
+                "comment_text": "Bon goût, bonne quantité, livraison rapide. Rien à redire.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C140",
+                "comment_text": "Le repas était frais, mais la commande a été livrée à la mauvaise adresse.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C142",
+                "comment_text": "J'ai aimé le bowl végétarien, ajoutez-le définitivement au menu !",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C147",
+                "comment_text": "Le plat manquait de goût, peut-être ajouter des épices.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C149",
+                "comment_text": "Très bonne expérience globale, je vous souhaite beaucoup de réussite.",
+                "sentiment": "positive"
+            }
+        ],
+        "delivery": [
+            {
+                "comment_id": "C002",
+                "comment_text": "Livraison arrivée avec 40 minutes de retard aujourd'hui.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C006",
+                "comment_text": "Salam, wach kayn livraison l sbitar dyal Mohammedia ?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C013",
+                "comment_text": "Le livreur était très gentil et professionnel.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C017",
+                "comment_text": "Good food, but delivery took too long.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C024",
+                "comment_text": "واش ممكن نخلص نقدا عند التوصيل؟",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C030",
+                "comment_text": "Salam, les horaires de livraison c'est jusqu'à quelle heure ?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C038",
+                "comment_text": "Le livreur m'a appelée avant d'arriver, service au top.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C039",
+                "comment_text": "Pourquoi les frais de livraison changent selon le quartier ?",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C050",
+                "comment_text": "Can you deliver to Rabat?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C059",
+                "comment_text": "Livraison rapide et repas encore chaud, merci !",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C061",
+                "comment_text": "J'aurais aimé recevoir une notification quand le livreur est parti.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C071",
+                "comment_text": "واش كاين livraison gratuite à partir d'un certain montant؟",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C078",
+                "comment_text": "Le livreur n'avait pas la monnaie, pouvez-vous proposer le paiement par carte ?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C086",
+                "comment_text": "واش ممكن نطلب من نهار قبل باش يكون التوصيل مع 12؟",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C088",
+                "comment_text": "Livraison impeccable ce midi, tout était bien emballé.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C089",
+                "comment_text": "Le prix de livraison est presque le même que celui de mon dessert 😅",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C100",
+                "comment_text": "Great concept. Please expand delivery areas.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C104",
+                "comment_text": "J'ai apprécié que vous m'ayez prévenue du retard au lieu de me laisser attendre.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C109",
+                "comment_text": "Est-ce possible de récupérer la commande sur place au lieu de la livraison ?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C115",
+                "comment_text": "Le service est correct, mais il faut améliorer le suivi de livraison.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C118",
+                "comment_text": "Le livreur a été très respectueux, merci pour son professionnalisme.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C129",
+                "comment_text": "فكرة زوينة، غير خاصكم توسعو التوصيل شوية.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C133",
+                "comment_text": "J'ai reçu une notification de livraison alors que le livreur n'était pas encore arrivé.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C136",
+                "comment_text": "Bon goût, bonne quantité, livraison rapide. Rien à redire.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C143",
+                "comment_text": "Why is delivery unavailable in my area?",
+                "sentiment": "negative"
+            }
+        ],
+        "price_payment": [
+            {
+                "comment_id": "C004",
+                "comment_text": "Le prix est un peu élevé pour la quantité.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C008",
+                "comment_text": "Les portions sont petites, surtout pour le prix.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C012",
+                "comment_text": "Commande facile, paiement simple, rien à signaler.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C026",
+                "comment_text": "Excellent rapport qualité-prix, surtout avec l'offre étudiant.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C039",
+                "comment_text": "Pourquoi les frais de livraison changent selon le quartier ?",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C045",
+                "comment_text": "Les prix sont corrects si la qualité reste comme ça.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C062",
+                "comment_text": "واش عندكم شي réduction للطلبة؟",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C074",
+                "comment_text": "Je ne comprends pas pourquoi ma carte est refusée uniquement sur votre site.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C075",
+                "comment_text": "Le rapport qualité-prix est meilleur que ce que je pensais.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C078",
+                "comment_text": "Le livreur n'avait pas la monnaie, pouvez-vous proposer le paiement par carte ?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C089",
+                "comment_text": "Le prix de livraison est presque le même que celui de mon dessert 😅",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C113",
+                "comment_text": "Le prix étudiant serait une très bonne idée.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C114",
+                "comment_text": "Je n'ai pas reçu de confirmation après le paiement.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C141",
+                "comment_text": "Les options de paiement sont trop limitées.",
+                "sentiment": "negative"
+            }
+        ],
+        "portions": [
+            {
+                "comment_id": "C004",
+                "comment_text": "Le prix est un peu élevé pour la quantité.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C008",
+                "comment_text": "Les portions sont petites, surtout pour le prix.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C025",
+                "comment_text": "Les photos donnent envie, mais le plat reçu était moins généreux.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C037",
+                "comment_text": "Not bad, but I expected a bigger portion.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C054",
+                "comment_text": "Les portions devraient être indiquées en grammes.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C065",
+                "comment_text": "Merci d'avoir pris en compte ma remarque sur les portions.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C066",
+                "comment_text": "Vous devriez proposer une petite et une grande taille.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C087",
+                "comment_text": "Les photos des plats devraient montrer la taille réelle des portions.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C111",
+                "comment_text": "Je trouve les portions parfaites pour un déjeuner léger.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C136",
+                "comment_text": "Bon goût, bonne quantité, livraison rapide. Rien à redire.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C144",
+                "comment_text": "عافاكم زيدو صور حقيقية ديال portions ماشي غير الصور الإشهارية.",
+                "sentiment": "neutral"
+            }
+        ],
+        "ordering_platform": [
+            {
+                "comment_id": "C005",
+                "comment_text": "J'aime beaucoup le concept, enfin des repas équilibrés faciles à commander.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C012",
+                "comment_text": "Commande facile, paiement simple, rien à signaler.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C023",
+                "comment_text": "Le site ne marche pas quand j'essaie de valider ma commande.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C028",
+                "comment_text": "J'ai reçu la mauvaise commande, ce n'est pas ce que j'avais choisi.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C044",
+                "comment_text": "Commande passée à 12h15, reçue à 13h05. Un peu long pour le déjeuner.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C051",
+                "comment_text": "Je commande souvent chez vous, mais aujourd'hui le riz était trop salé.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C056",
+                "comment_text": "J'ai payé en ligne mais la commande n'apparaît pas dans mon compte.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C064",
+                "comment_text": "Je trouve l'application un peu lente sur mon téléphone.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C065",
+                "comment_text": "Merci d'avoir pris en compte ma remarque sur les portions.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C068",
+                "comment_text": "J'ai reçu ma commande à la bonne adresse mais ce n'était pas la bonne personne qui l'a récupérée.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C072",
+                "comment_text": "Très déçue, la commande est arrivée après ma pause déjeuner.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C074",
+                "comment_text": "Je ne comprends pas pourquoi ma carte est refusée uniquement sur votre site.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C097",
+                "comment_text": "Le service s'améliore, ma dernière commande était beaucoup plus rapide.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C102",
+                "comment_text": "Je voudrais pouvoir commander plusieurs repas pour différents jours en une seule fois.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C105",
+                "comment_text": "Le menu est sympa, mais il manque les allergènes sur la page de commande.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C107",
+                "comment_text": "Je n'arrive pas à créer un compte avec mon numéro marocain.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C109",
+                "comment_text": "Est-ce possible de récupérer la commande sur place au lieu de la livraison ?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C125",
+                "comment_text": "Je ne peux pas sélectionner mon quartier dans le formulaire.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C126",
+                "comment_text": "Très satisfait de ma première commande. Je reviendrai !",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C140",
+                "comment_text": "Le repas était frais, mais la commande a été livrée à la mauvaise adresse.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C145",
+                "comment_text": "J'ai reçu un remboursement rapidement après un souci de commande.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C146",
+                "comment_text": "Le site est facile à utiliser, même pour une première commande.",
+                "sentiment": "positive"
+            }
+        ],
+        "menu_diversity": [
+            {
+                "comment_id": "C010",
+                "comment_text": "Est-ce que vous avez des options végétariennes ?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C011",
+                "comment_text": "Kanbghi had l'idée walakin khas tzido chi plats marocains.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C016",
+                "comment_text": "واش كاين شي menu بلا gluten؟",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C020",
+                "comment_text": "Le menu change chaque semaine ou bien c'est toujours les mêmes plats ?",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C027",
+                "comment_text": "Please add more vegan meals.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C043",
+                "comment_text": "Kanتمنا تزيدو choix dyal petit déjeuner healthy.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C049",
+                "comment_text": "Le menu végétarien est intéressant mais il manque des protéines.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C060",
+                "comment_text": "Le choix est limité pour les personnes qui ne mangent pas de viande.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C069",
+                "comment_text": "Le menu indique 'sans lactose', mais pouvez-vous confirmer pour la sauce ?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C070",
+                "comment_text": "Le wrap était délicieux, mais il faudrait plus de choix de sauces.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C076",
+                "comment_text": "Please make the menu available in English too.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C083",
+                "comment_text": "Bonne qualité, mais le choix des boissons est vraiment limité.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C087",
+                "comment_text": "Les photos des plats devraient montrer la taille réelle des portions.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C096",
+                "comment_text": "Il faudrait proposer plus de plats sans gluten.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C105",
+                "comment_text": "Le menu est sympa, mais il manque les allergènes sur la page de commande.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C117",
+                "comment_text": "Pas assez de choix pour les personnes qui suivent un régime sans viande.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C132",
+                "comment_text": "Le menu enfant serait intéressant pour les familles.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C142",
+                "comment_text": "J'ai aimé le bowl végétarien, ajoutez-le définitivement au menu !",
+                "sentiment": "positive"
+            }
+        ],
+        "nutrition_allergens": [
+            {
+                "comment_id": "C015",
+                "comment_text": "Vous pouvez afficher les calories et les protéines sur chaque plat ?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C016",
+                "comment_text": "واش كاين شي menu بلا gluten؟",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C046",
+                "comment_text": "Je suis allergique aux arachides, comment vérifier les allergènes ?",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C049",
+                "comment_text": "Le menu végétarien est intéressant mais il manque des protéines.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C069",
+                "comment_text": "Le menu indique 'sans lactose', mais pouvez-vous confirmer pour la sauce ?",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C096",
+                "comment_text": "Il faudrait proposer plus de plats sans gluten.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C105",
+                "comment_text": "Le menu est sympa, mais il manque les allergènes sur la page de commande.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C116",
+                "comment_text": "J'aime bien que vous proposiez les informations sur les protéines.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C122",
+                "comment_text": "واش ممكن تعطيو لينا لائحة ديال allergènes قبل ما نطلبو؟",
+                "sentiment": "neutral"
+            }
+        ],
+        "packaging": [
+            {
+                "comment_id": "C018",
+                "comment_text": "Le packaging est joli mais il y avait beaucoup de plastique.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C041",
+                "comment_text": "Le repas était bon mais le contenant s'est ouvert dans le sac.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C048",
+                "comment_text": "J'ai trouvé un morceau de plastique dans ma salade. Très déçue.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C052",
+                "comment_text": "Le packaging garde bien la chaleur, bonne idée.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C131",
+                "comment_text": "Je préfère avoir moins de plastique même si l'emballage est moins joli.",
+                "sentiment": "negative"
+            }
+        ],
+        "customer_service": [
+            {
+                "comment_id": "C022",
+                "comment_text": "Merci pour la réponse rapide en DM !",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C035",
+                "comment_text": "Ça fait trois jours que j'attends une réponse concernant mon remboursement.",
+                "sentiment": "neutral"
+            },
+            {
+                "comment_id": "C047",
+                "comment_text": "Le service client a réglé mon problème rapidement, merci.",
+                "sentiment": "positive"
+            },
+            {
+                "comment_id": "C085",
+                "comment_text": "J'ai essayé de vous contacter par téléphone sans succès.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C135",
+                "comment_text": "Le service client m'a demandé de répéter mon problème trois fois.",
+                "sentiment": "negative"
+            },
+            {
+                "comment_id": "C145",
+                "comment_text": "J'ai reçu un remboursement rapidement après un souci de commande.",
+                "sentiment": "neutral"
+            }
+        ]
+    }
+}

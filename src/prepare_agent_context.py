@@ -134,7 +134,8 @@ agent_context = {
     "metadata":{
         "project": "SocialPulse AI",
         "dataset_type": "synthetic",
-        "total_comments": int(total_comments)
+        "total_comments": int(total_comments),
+        "available_comment_ids": comments_df["comment_id"].tolist()
     },
     "sentiment_overview": sentiment_distribution,
 
@@ -220,3 +221,41 @@ for need, examples in list(need_evidence.items())[:3]:
 
     for example in examples:
         print(example)              
+
+
+
+
+#ajouter des preuves pour chaque theme
+topic_evidence={}
+for _, row in comments_df.iterrows():
+    detected_topics = row["topics"]
+
+    for topic in detected_topics:
+        if topic not in topic_evidence:
+            topic_evidence[topic]=[]
+
+        topic_evidence[topic].append({
+            "comment_id": row["comment_id"],
+            "comment_text": row["comment_text"],
+            "sentiment": row["sentiment"]
+        })
+
+agent_context["topic_evidence"]=topic_evidence
+
+print("\n--- TOPIC EVIDENCE EXAMPLES ---")
+
+for topic, examples in list(topic_evidence.items())[:3]:
+    print("\nTheme :", topic)
+
+    for example in examples[:3]:
+        print(example)
+
+
+
+
+#sauvegarder le contexte en JSON
+output_path = data_path / "agent_context.json"
+with open(output_path, "w", encoding="utf-8") as file:
+    json.dump(agent_context, file, ensure_ascii=False, indent=4)
+
+print("\nFichier agent_context.json cree avec succes !")
